@@ -14,10 +14,11 @@ class Album{
     }
 }
 
-albArr.push(new Album("/images/EIKAL.png" , "EVERYTHING I KNOW ABOUT LOVE"))
-albArr.push(new Album("/images/bewitched.png" , "BEWITCHED"))
-albArr.push(new Album("/images/AMOF.png" , "A METTER OF TIME"))
+albArr.push(new Album("images/EIKAL.png" , "EVERYTHING I KNOW ABOUT LOVE"))
+albArr.push(new Album("images/bewitched.png" , "BEWITCHED"))
+albArr.push(new Album("images/AMOF.png" , "A METTER OF TIME"))
 
 for( i = 0 ; i < albArr.length ; i++){
     albums.innerHTML += albArr[i].tohtml()
+
 }
